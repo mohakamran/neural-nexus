@@ -10,8 +10,7 @@
 
 Neural Nexus is an interactive platform that brings artificial intelligence to life through stunning visualizations. Build, train, and analyze neural networks with an intuitive drag-and-drop interface and real-time 3D visualizations.
 
-![Neural Nexus Demo]!
-[Neural Nexus Demo](./src/assets/neural-nexus.png)
+![Neural Nexus Demo](https://raw.githubusercontent.com/mohakamran/neural-nexus/main/src/assets/neural-nexus.png)
 
 
 ## ✨ Features
