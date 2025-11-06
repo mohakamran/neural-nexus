@@ -1,46 +1,76 @@
-# Getting Started with Create React App
+# 🧠 Neural Nexus - Interactive AI Architecture Visualizer
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![Live Demo](https://img.shields.io/badge/demo-live-brightgreen)](https://mohakamran.github.io/neural-nexus)
+[![React](https://img.shields.io/badge/react-18.2.0-61dafb)](https://reactjs.org/)
+[![TypeScript](https://img.shields.io/badge/typescript-4.9.5-3178c6)](https://www.typescriptlang.org/)
+[![Material-UI](https://img.shields.io/badge/material--ui-5.14.0-007fff)](https://mui.com/)
+[![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE)
 
-## Available Scripts
+> **Visualize, Design, and Train Neural Networks in Your Browser**
 
-In the project directory, you can run:
+Neural Nexus is an interactive platform that brings artificial intelligence to life through stunning visualizations. Build, train, and analyze neural networks with an intuitive drag-and-drop interface and real-time 3D visualizations.
 
-### `npm start`
+![Neural Nexus Demo](https://via.placeholder.com/1200x600/667eea/ffffff?text=Neural+Nexus+-+AI+Architecture+Visualizer)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## ✨ Features
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### 🎨 **Visual Network Builder**
+- **Drag & Drop Interface** - Intuitively design neural network architectures
+- **Layer Configuration** - Customize dense, convolutional, LSTM, and dropout layers
+- **Real-time Preview** - See your architecture update as you build
+- **Connection Visualization** - Visual weight and activation representations
 
-### `npm test`
+### 📊 **Advanced Training Dashboard**
+- **Real-time Metrics** - Live loss and accuracy tracking
+- **Interactive Charts** - Multiple visualization modes (line, area, bar, composite)
+- **Training Controls** - Start, stop, and reset training simulations
+- **AI Insights** - Smart recommendations based on training progress
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 🎯 **3D Visualization**
+- **Interactive 3D Network** - React Three Fiber powered visualizations
+- **Neuron Activation** - Real-time activation level displays
+- **Weight Connections** - Visual representation of network connections
+- **Camera Controls** - Orbit, zoom, and pan around your network
 
-### `npm run build`
+### 💫 **Professional UI/UX**
+- **Glass Morphism Design** - Modern translucent effects and gradients
+- **Smooth Animations** - Framer Motion powered transitions
+- **Responsive Design** - Flawless experience on desktop, tablet, and mobile
+- **Dark Theme** - Eye-friendly interface for extended use
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🚀 Live Demo
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**Experience Neural Nexus live:** [https://mohakamran.github.io/neural-nexus](https://mohakamran.github.io/neural-nexus)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🛠️ Tech Stack
 
-### `npm run eject`
+| Layer | Technology |
+|-------|------------|
+| **Frontend Framework** | React 18 + TypeScript |
+| **UI Library** | Material-UI v5 + Emotion |
+| **3D Graphics** | React Three Fiber + Three.js |
+| **Animations** | Framer Motion + React Spring |
+| **Charts & Visualization** | Recharts + D3.js |
+| **State Management** | Zustand |
+| **Build Tool** | Create React App |
+| **Deployment** | GitHub Pages |
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## 📦 Installation & Local Development
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Prerequisites
+- Node.js 16+ 
+- npm or yarn
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Quick Start
+```bash
+# Clone the repository
+git clone https://github.com/mohakamran/neural-nexus.git
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+# Navigate to project directory
+cd neural-nexus
 
-## Learn More
+# Install dependencies
+npm install
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Start development server
+npm start
